@@ -4,7 +4,6 @@
 #include <vector>
 #include <list>
 
-
 //доп структруа для определения принадлежности аргумента к контейнеру
 template <typename T>
 struct is_cont {
@@ -47,8 +46,6 @@ void print_ip(const std::string& ip_addr)
 {
 	std::cout << ip_addr << std::endl;
 }
-
-
 
 
 int main()
