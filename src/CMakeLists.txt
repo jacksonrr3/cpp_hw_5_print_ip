@@ -4,15 +4,15 @@ project(print_ip VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 find_package(Threads REQUIRED)
 
-add_executable(print_ip main.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 
-set_target_properties(print_ip PROPERTIES
+set_target_properties(${PROJECT_NAME} PROPERTIES
     CXX_STANDARD 17
     CXX_STANDARD_REQUIRED ON
     COMPILE_OPTIONS "-Wpedantic;-Wall;-Wextra"
 )
 
-install(TARGETS print_ip RUNTIME DESTINATION bin)
+install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
 
 set(CPACK_GENERATOR DEB)
 
