@@ -5,6 +5,10 @@
 #include <list>
 
 //доп структруа для определения принадлежности аргумента к контейнеру
+/**
+ * @brief Дополнительная структура для определения принадлежности аргумента к типу контейнер
+ *
+ */
 template <typename T>
 struct is_cont {
 	static const bool value = false;
@@ -21,6 +25,12 @@ struct is_cont<std::list<T>> {
 };
 
 
+/**
+ * @brief Шаблонная функция вывода в std::out ip-адреса заданного в виде произвольного целого типа
+ * @param T шаблонный параметр типа аргумента
+ * @param ip_addr аргумент функции
+ *
+ */
 template <typename T>
 typename std::enable_if_t<std::is_integral<T>::value, void>
 print_ip(const T& ip_addr) {
@@ -31,6 +41,12 @@ print_ip(const T& ip_addr) {
 	std::cout << std::endl;
 }
 
+/**
+ * @brief Шаблонная функция вывода в std::out ip-адреса заданного в виде контейнера std::vector или std::list
+ * @param T шаблонный параметр типа аргумента
+ * @param ip_addr аргумент функции
+ *
+ */
 template <typename U>
 typename std::enable_if_t<is_cont<U>::value, void>
 print_ip(const U& ip_cont) {
@@ -41,7 +57,11 @@ print_ip(const U& ip_cont) {
 	std::cout << std::endl;
 }
 
-
+/**
+ * @brief Функция вывода в std::out ip-адреса заданного в виде std::string
+ * @param ip_addr аргумент функции
+ *
+ */
 void print_ip(const std::string& ip_addr)
 {
 	std::cout << ip_addr << std::endl;
