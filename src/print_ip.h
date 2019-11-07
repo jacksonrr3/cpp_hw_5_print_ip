@@ -97,7 +97,7 @@ struct print_tuple<size, T, false> {
 
 template <typename T> //специализация для окончания рекурсии и дял пчеати из пустого tuple.
 struct print_tuple<0, T, false> {
-	static void print(const T& tup) {
+	static void print(const T&) {
 	}
 };
 
@@ -157,7 +157,7 @@ template <typename U>
 typename std::enable_if_t<is_tuple<U>::value, void>
 print_ip(const U& ip_tup) {
 	if (!is_same_tuple_args<U>::value) { std::cout << "Error types!"; }
-	else { print_tuple<std::tuple_size_v<U>, U>::print(ip_tup); }
+	else { print_tuple<std::tuple_size<U>::value, U>::print(ip_tup); }
 	std::cout << std::endl;
 }
 
