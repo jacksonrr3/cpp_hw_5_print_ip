@@ -4,6 +4,50 @@
 #include <vector>
 #include <list>
 
+
+//вспомогательная структура для печать адреса из кортежа
+/**
+ * @brief вспомогательная структура для печати адреса из кортежа
+ *
+ */
+template <size_t size, typename T, bool last = true>
+struct print_tuple {
+	static void print(const T& tup) {
+		
+		//std::cout << "."; 
+		print_tuple<size - 1, T, false>::print(tup);
+		std::cout << std::get<size - 1>(tup);
+	}
+};
+
+
+//специализация для вывода элементов, кроме последнего
+/**
+ * @brief специализация для вывода элементов, кроме последнего
+ *
+ */
+template <size_t size, typename T>
+struct print_tuple<size, T, false> {
+	static void print(const T& tup) {
+		print_tuple<size - 1, T, false>::print(tup);
+		std::cout << std::get<size-1>(tup) << ".";
+	}
+};
+
+//специализация для окончания рекурсии и для печати из пустого tuple.
+/**
+ * @brief специализация для окончания рекурсии
+ *
+ */
+template <typename T>
+struct print_tuple<0, T, false> {
+	static void print(const T& tup) {
+	}
+}; 
+
+
+
+
 //доп структруа для определения принадлежности аргумента к контейнеру
 /**
  * @brief Дополнительная структура для определения принадлежности аргумента к типу контейнер
@@ -24,9 +68,25 @@ struct is_cont<std::list<T>> {
 	static const bool value = true;
 };
 
+//доп структура для определения принадлежности аргумента к tuple
+/**
+ * @brief Дополнительная структура для определения принадлежности аргумента к типу std::tuple
+ *
+ */
+template <typename ...Args>
+struct is_tuple {
+	static const bool value = false;
+};
+
+template <typename...Args>
+struct is_tuple<std::tuple<Args...>> {
+	static const bool value = true;
+};
+
+
 
 /**
- * @brief Шаблонная функция вывода в std::out ip-адреса заданного в виде произвольного целого типа
+ * @brief Шаблонная функция вывода в std::cout ip-адреса заданного в виде произвольного целого типа
  * @param T шаблонный параметр типа аргумента
  * @param ip_addr аргумент функции
  *
@@ -67,6 +127,17 @@ void print_ip(const std::string& ip_addr)
 	std::cout << ip_addr << std::endl;
 }
 
+/**
+ * @brief Функция вывода в std::out ip-адреса заданного в виде std::tuple
+ * @param ip_addr аргумент функции
+ *
+ */
+template <typename U>
+typename std::enable_if_t<is_tuple<U>::value, void>
+print_ip(const U& ip_tup) {
+	print_tuple<std::tuple_size_v<U>, U>::print(ip_tup);
+	std::cout << std::endl;
+}
 
 int main()
 {
