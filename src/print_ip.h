@@ -136,6 +136,7 @@ print_ip(const U& ip_cont) {
 	std::cout << std::endl;
 }
 
+
 /**
  * @brief Функция вывода в std::cout ip-адреса заданного в виде std::string
  * @param ip_addr аргумент функции
