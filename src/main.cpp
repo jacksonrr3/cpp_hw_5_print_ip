@@ -14,6 +14,7 @@ int main()
 	std::vector<int> v1 = {213, 34, 0, 45};
 	std::list<short> l1 = { 223, 123, 45, 67 };
 
+	
 	print_ip(c);
 	print_ip(sh);
 	print_ip(i);
