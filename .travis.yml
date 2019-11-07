@@ -6,13 +6,11 @@ addons:
     packages:
     - doxygen
     - graphviz
-
 script:
 - cmake .
 - cmake --build .
 - cmake --build . --target package
 - doxygen Doxyfile
-
 deploy:
   provider: script
   skip_cleanup: true
