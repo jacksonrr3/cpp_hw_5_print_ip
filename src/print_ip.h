@@ -73,9 +73,9 @@ struct is_tuple<std::tuple<Args...>> {
 //вспомогательная структура для печать адреса из кортежа
 /**
  * @brief вспомогательная структура для печати адреса из кортежа
- * @param size шаблонный параметр - размер кортежа
- * @param T шаблонный параметр - тип кортежа
- * @param last шаблонный параметр - условие для выода символа '.' 
+ * size шаблонный параметр - размер кортежа
+ * T шаблонный параметр - тип кортежа
+ * last шаблонный параметр - условие для выода символа '.' 
  * @param tup аргумент функции print_tuple::print
  *
  */
@@ -100,4 +100,64 @@ struct print_tuple<0, T, false> {
 	static void print(const T&) {
 	}
 };
+
+
+
+/**
+ * @brief Шаблонная функция вывода в std::cout ip-адреса заданного в виде произвольного целого типа
+ * T шаблонный параметр типа аргумента
+ * @param ip_addr аргумент функции
+ *
+ */
+template <typename T>
+typename std::enable_if_t<std::is_integral<T>::value, void>
+print_ip(const T& ip_addr) {
+	for (size_t size = sizeof(T); size > 0;) {
+		std::cout << ((ip_addr >> (8 * (--size))) & 0xFF);
+		if (size) { std::cout << "."; }
+	}
+	std::cout << std::endl;
+}
+
+/**
+ * @brief Шаблонная функция вывода в std::cout ip-адреса заданного в виде контейнера std::vector или std::list
+ * T шаблонный параметр типа аргумента
+ * @param ip_cont аргумент функции
+ *
+ */
+template <typename U>
+typename std::enable_if_t<is_cont<U>::value, void>
+print_ip(const U& ip_cont) {
+
+	for (auto it = ip_cont.begin(), it_end = ip_cont.end(); it != it_end;) {
+		std::cout << *it;
+		if (++it != it_end) { std::cout << "."; }
+	}
+	std::cout << std::endl;
+}
+
+/**
+ * @brief Функция вывода в std::cout ip-адреса заданного в виде std::string
+ * @param ip_addr аргумент функции
+ *
+ */
+void print_ip(const std::string& ip_addr)
+{
+	std::cout << ip_addr << std::endl;
+}
+
+
+/**
+ * @brief Функция вывода в std::cout ip-адреса заданного в виде std::tuple, с проверкой условия одинаковых типов кортежа
+ * U шаблонный параметр типа аргумента
+ * @param ip_tup аргумент функции
+ *
+ */
+template <typename U>
+typename std::enable_if_t<is_tuple<U>::value, void>
+print_ip(const U& ip_tup) {
+	if (!is_same_tuple_args<U>::value) { std::cout << "Error types!"; }
+	else { print_tuple<std::tuple_size<U>::value, U>::print(ip_tup); }
+	std::cout << std::endl;
+}
 
