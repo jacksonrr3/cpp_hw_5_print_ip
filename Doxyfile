@@ -1754,12 +1754,6 @@ PERLMOD_LATEX          = NO
 
 PERLMOD_PRETTY         = YES
 
-# The names of the make variables in the generated doxyrules.make file are
-# prefixed with the string contained in PERLMOD_MAKEVAR_PREFIX. This is useful
-# so different doxyrules.make files included by the same Makefile don't
-# overwrite each other's variables.
-# This tag requires that the tag GENERATE_PERLMOD is set to YES.
-
 PERLMOD_MAKEVAR_PREFIX =
 
 #---------------------------------------------------------------------------
