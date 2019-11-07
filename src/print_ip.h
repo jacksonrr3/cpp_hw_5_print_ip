@@ -10,7 +10,7 @@
 //доп структура проверки элементов tuple на совпадение типов
 /**
  * @brief вспомогательная структура для проверки совпадения типов элементов кортежа 
- *
+ * 
  */
 template <typename T, typename...Args>
 struct is_same_tuple_args;
@@ -100,64 +100,4 @@ struct print_tuple<0, T, false> {
 	static void print(const T&) {
 	}
 };
-
-
-
-/**
- * @brief Шаблонная функция вывода в std::cout ip-адреса заданного в виде произвольного целого типа
- * @param T шаблонный параметр типа аргумента
- * @param ip_addr аргумент функции
- *
- */
-template <typename T>
-typename std::enable_if_t<std::is_integral<T>::value, void>
-print_ip(const T& ip_addr) {
-	for (size_t size = sizeof(T); size > 0;) {
-		std::cout << ((ip_addr >> (8 * (--size))) & 0xFF);
-		if (size) { std::cout << "."; }
-	}
-	std::cout << std::endl;
-}
-
-/**
- * @brief Шаблонная функция вывода в std::cout ip-адреса заданного в виде контейнера std::vector или std::list
- * @param T шаблонный параметр типа аргумента
- * @param ip_addr аргумент функции
- *
- */
-template <typename U>
-typename std::enable_if_t<is_cont<U>::value, void>
-print_ip(const U& ip_cont) {
-
-	for (auto it = ip_cont.begin(), it_end = ip_cont.end(); it != it_end;) {
-		std::cout << *it;
-		if (++it != it_end) { std::cout << "."; }
-	}
-	std::cout << std::endl;
-}
-
-/**
- * @brief Функция вывода в std::cout ip-адреса заданного в виде std::string
- * @param ip_addr аргумент функции
- *
- */
-void print_ip(const std::string& ip_addr)
-{
-	std::cout << ip_addr << std::endl;
-}
-
-
-/**
- * @brief Функция вывода в std::cout ip-адреса заданного в виде std::tuple, с проверкой условия одинаковых типов кортежа
- * @param U шаблонный параметр типа аргумента
- * @param ip_addr аргумент функции
- *
- */
-template <typename U>
-typename std::enable_if_t<is_tuple<U>::value, void>
-print_ip(const U& ip_tup) {
-	if (!is_same_tuple_args<U>::value) { std::cout << "Error types!"; }
-	else { print_tuple<std::tuple_size<U>::value, U>::print(ip_tup); }
-	std::cout << std::endl;
-}
 
