@@ -5,7 +5,7 @@ addons:
   apt:
     packages: 
     - doxygen
-    - graphviz
+   
 script:
 - cmake .
 - cmake --build .
