@@ -5,8 +5,9 @@ project(print_ip VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 find_package(Threads REQUIRED)
 
 set(SOURCES src/main.cpp)
+set(SOURCES_LIB src/print_ip.h)
 
-add_executable(print_ip ${SOURCES})
+add_executable(print_ip ${SOURCES} ${SOURCES_LIB})
 
 set_target_properties(print_ip PROPERTIES
     CXX_STANDARD 17
