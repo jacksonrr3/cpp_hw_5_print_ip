@@ -4,7 +4,6 @@
 #include <tuple>
 #include "print_ip.h"
 
-
 int main()
 {
 	char c = -1;
