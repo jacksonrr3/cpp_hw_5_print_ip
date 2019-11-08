@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/src/main.cpp
+string
+-
+vector
+-
+list
+-
+tuple
+-
+print_ip.h
+/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/src/print_ip.h
+
+/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/src/print_ip.h
+iostream
+-
+string
+-
+type_traits
+-
+vector
+-
+list
+-
+tuple
+-
+
