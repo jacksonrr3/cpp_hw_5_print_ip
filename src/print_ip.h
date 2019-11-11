@@ -165,10 +165,9 @@ void print_ip(const std::string& ip_addr)
  *
  */
 template <typename U>
-typename std::enable_if_t<is_tuple<U>::value, void>
+typename std::enable_if_t<is_same_tuple_args<U>::value, void>
 print_ip(const U& ip_tup) {
-	if (!is_same_tuple_args<U>::value) { std::cout << "Error types!"; }
-	else { print_tuple<std::tuple_size<U>::value, U>::print(ip_tup); }
+	print_tuple<std::tuple_size<U>::value, U>::print(ip_tup); 
 	std::cout << std::endl;
 }
 
