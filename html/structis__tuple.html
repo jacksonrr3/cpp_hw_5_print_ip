@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Print_ip: Содержание директории src</title>
+<title>Print_ip: Шаблон структуры is_tuple&lt; Args &gt;</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -40,8 +40,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
-      <li><a href="annotated.html"><span>Классы</span></a></li>
-      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -62,8 +62,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
-      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -80,25 +81,57 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#pub-static-attribs">Статические открытые данные</a> &#124;
+<a href="structis__tuple-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle">
-<div class="title">Содержание директории src</div>  </div>
+<div class="title">Шаблон структуры is_tuple&lt; Args &gt;</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Дополнительная структура для определения принадлежности аргумента к типу std::tuple.  
+ <a href="structis__tuple.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="print__ip_8h_source.html">print_ip.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
-Файлы</h2></td></tr>
-<tr class="memitem:main_8cpp"><td class="memItemLeft" align="right" valign="top">файл &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html">main.cpp</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:print__ip_8h"><td class="memItemLeft" align="right" valign="top">файл &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="print__ip_8h.html">print_ip.h</a> <a href="print__ip_8h_source.html">[Исходные тексты]</a></td></tr>
-<tr class="memdesc:print__ip_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Заголовочный файл с описанием классов <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Статические открытые данные</h2></td></tr>
+<tr class="memitem:ad2a5aa9a75c4ce4687009b90a3f7763a"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structis__tuple.html#ad2a5aa9a75c4ce4687009b90a3f7763a">value</a> = false</td></tr>
+<tr class="separator:ad2a5aa9a75c4ce4687009b90a3f7763a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><h3>template&lt;typename... Args&gt;<br />
+struct is_tuple&lt; Args &gt;</h3>
+
+<p>Дополнительная структура для определения принадлежности аргумента к типу std::tuple. </p>
+</div><h2 class="groupheader">Данные класса</h2>
+<a class="anchor" id="ad2a5aa9a75c4ce4687009b90a3f7763a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool <a class="el" href="structis__tuple.html">is_tuple</a>&lt; Args &gt;::value = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов структуры находятся в файле:<ul>
+<li>src/<a class="el" href="print__ip_8h_source.html">print_ip.h</a></li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

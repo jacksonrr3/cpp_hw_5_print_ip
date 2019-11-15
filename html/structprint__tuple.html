@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Print_ip: Файл src/main.cpp</title>
+<title>Print_ip: Шаблон структуры print_tuple&lt; size, T, last &gt;</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -40,8 +40,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
-      <li><a href="annotated.html"><span>Классы</span></a></li>
-      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -62,8 +62,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>Файлы</span></a></li>
-      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -80,53 +81,67 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Функции</a>  </div>
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="structprint__tuple-members.html">Полный список членов класса</a>  </div>
   <div class="headertitle">
-<div class="title">Файл main.cpp</div>  </div>
+<div class="title">Шаблон структуры print_tuple&lt; size, T, last &gt;</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;string&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;list&gt;</code><br />
-<code>#include &lt;tuple&gt;</code><br />
-<code>#include &quot;<a class="el" href="print__ip_8h_source.html">print_ip.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Граф включаемых заголовочных файлов для main.cpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#src_2main_8cpp" alt=""/></div>
-<map name="src_2main_8cpp" id="src_2main_8cpp">
-<area shape="rect" id="node6" href="print__ip_8h.html" title="Заголовочный файл с описанием классов " alt="" coords="227,80,309,107"/>
-</map>
-</div>
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Функции</h2></td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
-<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+
+<p>вспомогательная структура для печати адреса из кортежа size шаблонный параметр - размер кортежа T шаблонный параметр - тип кортежа last шаблонный параметр - условие для выода символа '.'.  
+ <a href="structprint__tuple.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="print__ip_8h_source.html">print_ip.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a2abc420dc4ab7fa7b6bb3d2f4e863025"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprint__tuple.html#a2abc420dc4ab7fa7b6bb3d2f4e863025">print</a> (const T &amp;tup)</td></tr>
+<tr class="separator:a2abc420dc4ab7fa7b6bb3d2f4e863025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Функции</h2>
-<a class="anchor" id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><h3>template&lt;size_t size, typename T, bool last = true&gt;<br />
+struct print_tuple&lt; size, T, last &gt;</h3>
+
+<p>вспомогательная структура для печати адреса из кортежа size шаблонный параметр - размер кортежа T шаблонный параметр - тип кортежа last шаблонный параметр - условие для выода символа '.'. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tup</td><td>аргумент функции <a class="el" href="structprint__tuple.html#a2abc420dc4ab7fa7b6bb3d2f4e863025">print_tuple::print</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Методы</h2>
+<a class="anchor" id="a2abc420dc4ab7fa7b6bb3d2f4e863025"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;size_t size, typename T, bool last = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int main </td>
+          <td class="memname">static void <a class="el" href="structprint__tuple.html">print_tuple</a>&lt; size, T, last &gt;::print </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>tup</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<hr/>Объявления и описания членов структуры находятся в файле:<ul>
+<li>src/<a class="el" href="print__ip_8h_source.html">print_ip.h</a></li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

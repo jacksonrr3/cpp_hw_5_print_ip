@@ -28,28 +28,28 @@ The CXX compiler identification is Clang, found in "/home/travis/build/jacksonrr
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_27a73/fast"
-/usr/bin/make -f CMakeFiles/cmTC_27a73.dir/build.make CMakeFiles/cmTC_27a73.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8d6b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d6b8.dir/build.make CMakeFiles/cmTC_8d6b8.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_27a73.dir/testCCompiler.c.o
-/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_27a73.dir/testCCompiler.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_27a73
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27a73.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_27a73.dir/testCCompiler.c.o  -o cmTC_27a73 
+Building C object CMakeFiles/cmTC_8d6b8.dir/testCCompiler.c.o
+/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_8d6b8.dir/testCCompiler.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8d6b8
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d6b8.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_8d6b8.dir/testCCompiler.c.o  -o cmTC_8d6b8 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e197b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e197b.dir/build.make CMakeFiles/cmTC_e197b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_440ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_440ab.dir/build.make CMakeFiles/cmTC_440ab.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e197b.dir/CMakeCCompilerABI.c.o
-/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_e197b.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_e197b
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e197b.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang     -v -rdynamic CMakeFiles/cmTC_e197b.dir/CMakeCCompilerABI.c.o  -o cmTC_e197b 
+Building C object CMakeFiles/cmTC_440ab.dir/CMakeCCompilerABI.c.o
+/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_440ab.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_440ab
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_440ab.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang     -v -rdynamic CMakeFiles/cmTC_440ab.dir/CMakeCCompilerABI.c.o  -o cmTC_440ab 
 clang version 7.0.0 (tags/RELEASE_700/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -65,7 +65,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
 Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e197b /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e197b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_440ab /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_440ab.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -73,14 +73,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e197b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e197b.dir/build.make CMakeFiles/cmTC_e197b.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_440ab/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_440ab.dir/build.make CMakeFiles/cmTC_440ab.dir/build]
   ignore line: [make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e197b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_e197b.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_e197b]
-  ignore line: [/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e197b.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/clang-7.0.0/bin/clang     -v -rdynamic CMakeFiles/cmTC_e197b.dir/CMakeCCompilerABI.c.o  -o cmTC_e197b ]
+  ignore line: [Building C object CMakeFiles/cmTC_440ab.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_440ab.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_440ab]
+  ignore line: [/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_440ab.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/clang-7.0.0/bin/clang     -v -rdynamic CMakeFiles/cmTC_440ab.dir/CMakeCCompilerABI.c.o  -o cmTC_440ab ]
   ignore line: [clang version 7.0.0 (tags/RELEASE_700/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -98,7 +98,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e197b /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e197b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_440ab /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_440ab.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -110,7 +110,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e197b] ==> ignore
+    arg [cmTC_440ab] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
@@ -123,7 +123,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/local/clang-7.0.0/bin/../lib] ==> dir [/usr/local/clang-7.0.0/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_e197b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_440ab.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -154,14 +154,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_74527/fast"
-/usr/bin/make -f CMakeFiles/cmTC_74527.dir/build.make CMakeFiles/cmTC_74527.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6303d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6303d.dir/build.make CMakeFiles/cmTC_6303d.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_74527.dir/feature_tests.c.o
-/usr/local/clang-7.0.0/bin/clang   -std=c11 -o CMakeFiles/cmTC_74527.dir/feature_tests.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.c
-Linking C executable cmTC_74527
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74527.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_74527.dir/feature_tests.c.o  -o cmTC_74527 
+Building C object CMakeFiles/cmTC_6303d.dir/feature_tests.c.o
+/usr/local/clang-7.0.0/bin/clang   -std=c11 -o CMakeFiles/cmTC_6303d.dir/feature_tests.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6303d
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6303d.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_6303d.dir/feature_tests.c.o  -o cmTC_6303d 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -174,14 +174,14 @@ make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMak
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3a218/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3a218.dir/build.make CMakeFiles/cmTC_3a218.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d99e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d99e9.dir/build.make CMakeFiles/cmTC_d99e9.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a218.dir/feature_tests.c.o
-/usr/local/clang-7.0.0/bin/clang   -std=c99 -o CMakeFiles/cmTC_3a218.dir/feature_tests.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3a218
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a218.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_3a218.dir/feature_tests.c.o  -o cmTC_3a218 
+Building C object CMakeFiles/cmTC_d99e9.dir/feature_tests.c.o
+/usr/local/clang-7.0.0/bin/clang   -std=c99 -o CMakeFiles/cmTC_d99e9.dir/feature_tests.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d99e9
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d99e9.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_d99e9.dir/feature_tests.c.o  -o cmTC_d99e9 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -194,14 +194,14 @@ make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMak
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9bd1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9bd1.dir/build.make CMakeFiles/cmTC_d9bd1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d1e1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1e1f.dir/build.make CMakeFiles/cmTC_d1e1f.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d9bd1.dir/feature_tests.c.o
-/usr/local/clang-7.0.0/bin/clang   -std=c90 -o CMakeFiles/cmTC_d9bd1.dir/feature_tests.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d9bd1
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9bd1.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_d9bd1.dir/feature_tests.c.o  -o cmTC_d9bd1 
+Building C object CMakeFiles/cmTC_d1e1f.dir/feature_tests.c.o
+/usr/local/clang-7.0.0/bin/clang   -std=c90 -o CMakeFiles/cmTC_d1e1f.dir/feature_tests.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d1e1f
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1e1f.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_d1e1f.dir/feature_tests.c.o  -o cmTC_d1e1f 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -212,28 +212,28 @@ make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMak
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ce07/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1ce07.dir/build.make CMakeFiles/cmTC_1ce07.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dc7bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc7bd.dir/build.make CMakeFiles/cmTC_dc7bd.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1ce07.dir/testCXXCompiler.cxx.o
-/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_1ce07.dir/testCXXCompiler.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1ce07
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ce07.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_1ce07.dir/testCXXCompiler.cxx.o  -o cmTC_1ce07 
+Building CXX object CMakeFiles/cmTC_dc7bd.dir/testCXXCompiler.cxx.o
+/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_dc7bd.dir/testCXXCompiler.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_dc7bd
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc7bd.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_dc7bd.dir/testCXXCompiler.cxx.o  -o cmTC_dc7bd 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d00ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d00ae.dir/build.make CMakeFiles/cmTC_d00ae.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b7cf9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7cf9.dir/build.make CMakeFiles/cmTC_b7cf9.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d00ae.dir/CMakeCXXCompilerABI.cpp.o
-/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_d00ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_d00ae
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d00ae.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++      -v -rdynamic CMakeFiles/cmTC_d00ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d00ae 
+Building CXX object CMakeFiles/cmTC_b7cf9.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_b7cf9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b7cf9
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7cf9.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++      -v -rdynamic CMakeFiles/cmTC_b7cf9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b7cf9 
 clang version 7.0.0 (tags/RELEASE_700/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -249,7 +249,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
 Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d00ae /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_d00ae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b7cf9 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_b7cf9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -257,14 +257,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d00ae/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d00ae.dir/build.make CMakeFiles/cmTC_d00ae.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b7cf9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b7cf9.dir/build.make CMakeFiles/cmTC_b7cf9.dir/build]
   ignore line: [make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d00ae.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_d00ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_d00ae]
-  ignore line: [/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d00ae.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/clang-7.0.0/bin/clang++      -v -rdynamic CMakeFiles/cmTC_d00ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d00ae ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b7cf9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_b7cf9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b7cf9]
+  ignore line: [/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7cf9.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/clang-7.0.0/bin/clang++      -v -rdynamic CMakeFiles/cmTC_b7cf9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b7cf9 ]
   ignore line: [clang version 7.0.0 (tags/RELEASE_700/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -282,7 +282,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d00ae /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_d00ae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b7cf9 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_b7cf9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d00ae] ==> ignore
+    arg [cmTC_b7cf9] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
@@ -307,7 +307,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/local/clang-7.0.0/bin/../lib] ==> dir [/usr/local/clang-7.0.0/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_d00ae.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b7cf9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,14 +336,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dbbc8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dbbc8.dir/build.make CMakeFiles/cmTC_dbbc8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6349c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6349c.dir/build.make CMakeFiles/cmTC_6349c.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dbbc8.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++2a -o CMakeFiles/cmTC_dbbc8.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_dbbc8
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbbc8.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_dbbc8.dir/feature_tests.cxx.o  -o cmTC_dbbc8 
+Building CXX object CMakeFiles/cmTC_6349c.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++2a -o CMakeFiles/cmTC_6349c.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6349c
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6349c.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_6349c.dir/feature_tests.cxx.o  -o cmTC_6349c 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -409,14 +409,14 @@ make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMak
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9dc43/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9dc43.dir/build.make CMakeFiles/cmTC_9dc43.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f913e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f913e.dir/build.make CMakeFiles/cmTC_f913e.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9dc43.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++17 -o CMakeFiles/cmTC_9dc43.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9dc43
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dc43.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_9dc43.dir/feature_tests.cxx.o  -o cmTC_9dc43 
+Building CXX object CMakeFiles/cmTC_f913e.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++17 -o CMakeFiles/cmTC_f913e.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f913e
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f913e.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_f913e.dir/feature_tests.cxx.o  -o cmTC_f913e 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -482,14 +482,14 @@ make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMak
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_33d21/fast"
-/usr/bin/make -f CMakeFiles/cmTC_33d21.dir/build.make CMakeFiles/cmTC_33d21.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4ff12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ff12.dir/build.make CMakeFiles/cmTC_4ff12.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_33d21.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_33d21.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_33d21
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33d21.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_33d21.dir/feature_tests.cxx.o  -o cmTC_33d21 
+Building CXX object CMakeFiles/cmTC_4ff12.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_4ff12.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4ff12
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ff12.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_4ff12.dir/feature_tests.cxx.o  -o cmTC_4ff12 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -555,14 +555,14 @@ make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMak
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6f3dc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6f3dc.dir/build.make CMakeFiles/cmTC_6f3dc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7ae99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ae99.dir/build.make CMakeFiles/cmTC_7ae99.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6f3dc.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_6f3dc.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6f3dc
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f3dc.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_6f3dc.dir/feature_tests.cxx.o  -o cmTC_6f3dc 
+Building CXX object CMakeFiles/cmTC_7ae99.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_7ae99.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7ae99
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ae99.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_7ae99.dir/feature_tests.cxx.o  -o cmTC_7ae99 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -628,14 +628,14 @@ make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMak
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ad7a4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ad7a4.dir/build.make CMakeFiles/cmTC_ad7a4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_99621/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99621.dir/build.make CMakeFiles/cmTC_99621.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ad7a4.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_ad7a4.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ad7a4
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad7a4.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_ad7a4.dir/feature_tests.cxx.o  -o cmTC_ad7a4 
+Building CXX object CMakeFiles/cmTC_99621.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_99621.dir/feature_tests.cxx.o -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_99621
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99621.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       -rdynamic CMakeFiles/cmTC_99621.dir/feature_tests.cxx.o  -o cmTC_99621 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
@@ -699,28 +699,28 @@ make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMak
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d8285/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d8285.dir/build.make CMakeFiles/cmTC_d8285.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_78eea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78eea.dir/build.make CMakeFiles/cmTC_78eea.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d8285.dir/CheckIncludeFile.c.o
-/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_d8285.dir/CheckIncludeFile.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_d8285
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8285.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_d8285.dir/CheckIncludeFile.c.o  -o cmTC_d8285 
+Building C object CMakeFiles/cmTC_78eea.dir/CheckIncludeFile.c.o
+/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_78eea.dir/CheckIncludeFile.c.o   -c /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_78eea
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78eea.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      -rdynamic CMakeFiles/cmTC_78eea.dir/CheckIncludeFile.c.o  -o cmTC_78eea 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cc495/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cc495.dir/build.make CMakeFiles/cmTC_cc495.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ac50b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac50b.dir/build.make CMakeFiles/cmTC_ac50b.dir/build
 make[1]: Entering directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cc495.dir/CheckFunctionExists.c.o
-/usr/local/clang-7.0.0/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cc495.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cc495
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc495.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cc495.dir/CheckFunctionExists.c.o  -o cmTC_cc495 -lpthread 
+Building C object CMakeFiles/cmTC_ac50b.dir/CheckFunctionExists.c.o
+/usr/local/clang-7.0.0/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ac50b.dir/CheckFunctionExists.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ac50b
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac50b.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ac50b.dir/CheckFunctionExists.c.o  -o cmTC_ac50b -lpthread 
 make[1]: Leaving directory '/home/travis/build/jacksonrr3/cpp_hw_5_print_ip/CMakeFiles/CMakeTmp'
 
 
