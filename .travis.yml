@@ -21,6 +21,7 @@ deploy:
 
   - provider: pages
     skip-cleanup: true
+    local_dir: $TRAVIS_BUILD_DIR/doxygen/html
     github-token: $GITHUB_TOKEN
     keep-history: true
     on:
